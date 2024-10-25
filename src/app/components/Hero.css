@@ -1,0 +1,9 @@
+/* Hero.css */
+.hero-background {
+    background-image: url('../images/banner3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+height: 550px;
+  }
+  
