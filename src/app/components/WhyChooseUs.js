@@ -1,29 +1,35 @@
-import { ShieldCheckIcon, ClockIcon, CurrencyDollarIcon, CheckCircleIcon } from '@heroicons/react/24/outline';
+import { ShieldCheckIcon, ClockIcon, CurrencyDollarIcon, CheckCircleIcon, TruckIcon, MapPinIcon } from '@heroicons/react/24/outline';
 
 const features = [
   {
-    name: 'Expert Technicians',
+    name: 'Affordable Rates',
     description:
-      'Our team of certified technicians is highly experienced in handling all types of TV repair issues, from simple fixes to complex problems.',
-    icon: ShieldCheckIcon, // Expert Technicians
+      'Visiting charges only ₹199, which includes a detailed diagnosis for transparent, cost-effective service.',
+    icon: CurrencyDollarIcon, // Affordable Rates
   },
   {
-    name: 'Fast & Reliable Service',
+    name: 'Quick Response',
     description:
-      'We prioritize quick turnaround times without compromising on quality, ensuring your TV is back in action as soon as possible.',
-    icon: ClockIcon, // Fast & Reliable Service
+      'A technician will be at your location within 60 minutes of booking to address your TV repair needs promptly.',
+    icon: ClockIcon, // Quick Response
   },
   {
-    name: 'Affordable Pricing',
+    name: 'Hassle-Free Pickup & Drop Service',
     description:
-      'We provide competitive and transparent pricing with no hidden costs, offering excellent value for top-notch service.',
-    icon: CurrencyDollarIcon, // Affordable Pricing
+      'We offer convenient transportation for your TV, making the repair process entirely stress-free for you.',
+    icon: TruckIcon, // Hassle-Free Pickup & Drop Service
   },
   {
-    name: 'Guaranteed Satisfaction',
+    name: 'Experienced Technicians',
     description:
-      'Our commitment to quality service ensures customer satisfaction. We stand by our repairs with warranties for peace of mind.',
-    icon: CheckCircleIcon, // Guaranteed Satisfaction
+      'Our team has experience with all major TV brands and models, delivering reliable and quality repairs each time.',
+    icon: ShieldCheckIcon, // Experienced Technicians
+  },
+  {
+    name: 'City-Wide Service Coverage',
+    description:
+      'We serve all areas of Pune, so dependable TV repair service is just a call away, wherever you are in the city.',
+    icon: MapPinIcon, // City-Wide Service Coverage
   },
 ];
 
@@ -36,24 +42,26 @@ export default function Example() {
           <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">
             We are providing best LCD/LED Repair Service
           </p>
-          
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-            {features.map((feature) => (
-              <div key={feature.name} className="relative pl-16">
-                <dt className="text-base font-semibold leading-7 text-gray-900">
-                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-                    <feature.icon aria-hidden="true" className="h-6 w-6 text-white" />
-                  </div>
-                  {feature.name}
-                </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-600">{feature.description}</dd>
-              </div>
-            ))}
+            {features.map((feature) => {
+              const IconComponent = feature.icon;
+              return (
+                <div key={feature.name} className="relative pl-16">
+                  <dt className="text-base font-semibold leading-7 text-gray-900">
+                    <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                      <IconComponent aria-hidden="true" className="h-6 w-6 text-white" />
+                    </div>
+                    {feature.name}
+                  </dt>
+                  <dd className="mt-2 text-base leading-7 text-gray-600">{feature.description}</dd>
+                </div>
+              );
+            })}
           </dl>
         </div>
       </div>
     </div>
-  )
+  );
 }
