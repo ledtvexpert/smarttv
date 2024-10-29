@@ -7,3 +7,91 @@
 height: 550px;
   }
   
+
+  /* Container Background Color */
+.bg-color {
+  background-color: #1a73e8;
+}
+
+/* Enquiry Form Container */
+.enquiry-form-container {
+  max-width: 100%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Heading */
+.form-heading {
+  font-family: 'Arial', sans-serif;
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Form Input Fields */
+.enquiry-form .form-group {
+  margin-bottom: 15px;
+}
+
+.enquiry-form .form-control {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+/* Input Fields Focus Effect */
+.enquiry-form .form-control:focus {
+  border-color: #009688;
+  box-shadow: 0 0 8px rgba(0, 150, 136, 0.2);
+  outline: none;
+}
+
+/* Submit Button Styling */
+.submit-btn {
+  background-color: #4f46e5;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 30px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #00796b;
+  box-shadow: 0 8px 15px rgba(0, 150, 136, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .enquiry-form-container {
+    padding: 15px;
+  }
+
+  .submit-btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-heading {
+    font-size: 20px;
+  }
+
+  .submit-btn {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
