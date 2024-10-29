@@ -13,8 +13,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Smart Tv Solutions",
-  description: "LCD/LED Tv Repair",
+  title: "LED & LCD TV Repair Service in Pune | Affordable ₹199 Visit | Smart TV Solution",
+  description: "Smart TV Solution offers fast and affordable LED & LCD TV repair services across Pune. Expert technicians, pickup & drop service, ₹199 visiting charge. Servicing areas include Shivajinagar, Wakad, Baner, and more",
 };
 
 export default function RootLayout({ children }) {
