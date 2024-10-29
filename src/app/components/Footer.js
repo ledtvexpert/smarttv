@@ -27,8 +27,20 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-2">Location Services</h3>
           <ul className="space-y-1">
-            <li><a href="#" className="text-gray-300 hover:text-white">LED TV Repair in Kharadi</a></li>
-            <li><a href="#" className="text-gray-300 hover:text-white">LCD TV Repair in Pune</a></li>
+            <li><a href="#" className="text-gray-300 hover:text-white">Shivajinagar</a></li>
+            <li><a href="#" className="text-gray-300 hover:text-white">Wakad</a></li>
+            <li><a href="#" className="text-gray-300 hover:text-white">Pashan</a></li>
+            <li><a href="#" className="text-gray-300 hover:text-white">Kothrud</a></li>
+            <li><a href="#" className="text-gray-300 hover:text-white">Baner</a></li>
+            <li><a href="#" className="text-gray-300 hover:text-white">Wagholi</a></li>
+            <li><a href="#" className="text-gray-300 hover:text-white">Vishrantwadi</a></li>
+            <li><a href="#" className="text-gray-300 hover:text-white">Koregaon Park</a></li>
+            <li><a href="#" className="text-gray-300 hover:text-white">Kalyani Nagar</a></li>
+            <li><a href="#" className="text-gray-300 hover:text-white">Kharadi</a></li>
+            <li><a href="#" className="text-gray-300 hover:text-white">NIBM, Kondhwa</a></li>
+            <li><a href="#" className="text-gray-300 hover:text-white">Narhe, Ambegaon</a></li>
+            <li><a href="#" className="text-gray-300 hover:text-white">Vadgaon Sheri</a></li>
+            <li><a href="#" className="text-gray-300 hover:text-white">Yerwada</a></li>
           </ul>
         </div>
 
