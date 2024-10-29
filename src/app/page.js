@@ -8,6 +8,8 @@ import Counter from './components/Counter';
 import Contact from './components/Contact';
 import Whatsapp from './components/Whatsapp';
 import Faq from './components/Faq';
+import HorizontalScroll from './components/Infinitescroll';
+
 
 
 
@@ -23,6 +25,7 @@ export default function Home() {
         <Counter/>
         <WhyChooseUs />
         <Faq/>
+        <HorizontalScroll/>
         <Contact/>
       </main>
       <Whatsapp/>
