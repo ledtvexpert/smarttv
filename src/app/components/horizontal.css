@@ -1,0 +1,26 @@
+/* CSS for horizontal scroll animation */
+.overflow-hidden {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%; /* Adjust width as needed */
+}
+
+.animate-scroll {
+    display: flex;
+    animation: scroll 30s linear infinite; /* Adjust duration for speed */
+}
+
+.brand-logo {
+    display: inline-block;
+    margin: 0 20px; /* Space between logos */
+    max-height: 156px; /* Adjust height based on your logo sizes */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%); /* Start off-screen to the right */
+    }
+    100% {
+        transform: translateX(-100%); /* Move off-screen to the left */
+    }
+}
