@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Whatsapp from './components/Whatsapp';
 import Faq from './components/Faq';
 import HorizontalScroll from './components/Infinitescroll';
+import Repairservice from './components/Repairservice';
 
 
 
@@ -26,6 +27,7 @@ export default function Home() {
         <WhyChooseUs />
         <Faq/>
         <HorizontalScroll/>
+        <Repairservice/>
         <Contact/>
       </main>
       <Whatsapp/>
