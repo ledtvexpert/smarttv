@@ -28,7 +28,6 @@ export default function Home() {
         <Faq/>
         <HorizontalScroll/>
         <Repairservice/>
-        <Contact/>
       </main>
       <Whatsapp/>
       <Footer />
