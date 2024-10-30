@@ -1,6 +1,6 @@
 export default function Repairservice() {
   return (
-    <div>
+    <div className="bg-white">
     <div className="text-center">
       <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Our Easy 4-Step TV Repair Process</h2>
     </div>
