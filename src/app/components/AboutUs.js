@@ -57,15 +57,15 @@ export default function AboutUs() {
               </div>
             </div>
           </div>
-          <div className="overflow-hidden"> {/* Wrapper with overflow-hidden */}
-            <img
-              alt="Product screenshot"
-              src="https://res.cloudinary.com/dm5f3hpbd/image/upload/v1730202563/Untitled_design-min_nwswsc.png"
-              width={600}
-              height={550}
-              className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-            />
-          </div>
+                <div className="overflow-hidden">
+  <img
+    alt="Product screenshot"
+    src="https://res.cloudinary.com/dm5f3hpbd/image/upload/v1730266113/weus_brkreq.png"
+    width={500}  
+    height={500} 
+    className="w-[24rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[28rem] md:-ml-4 lg:-ml-0"
+  />
+</div>
         </div>
       </div>
     </div>
